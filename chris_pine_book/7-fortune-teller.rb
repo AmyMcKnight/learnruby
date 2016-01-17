@@ -1,0 +1,12 @@
+puts 'Fortune Teller'
+puts ''
+puts 'I\'m a fortune-teller. tell me your name:'
+name = gets.chomp
+
+if name == 'Amy'
+	puts 'I see great things in your future.'
+else 
+	puts 'Your future is . . . oh my! Look at the time!'
+	puts 'I really have to go, sorry!'
+end
+
